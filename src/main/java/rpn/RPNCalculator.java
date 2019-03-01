@@ -9,13 +9,13 @@ public class RPNCalculator {
     private int secondNumber;
     private char operand;
 
-    Map<Character, Operation> operations = new HashMap<>();
+    Map<Character, Operation> operations = new HashMap();
     public RPNCalculator() {
         operations.put(Operands.OPERAND_SUM, new OperationSum());
         operations.put(Operands.OPERAND_SUBSTRACT, new OperationSubstract());
         operations.put(Operands.OPERAND_MULTIPLY, new OperationMultiply());
         
-        // ilkay test 
+        // ilkay tes
     }
     
     
