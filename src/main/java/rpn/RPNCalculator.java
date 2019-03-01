@@ -15,7 +15,7 @@ public class RPNCalculator {
         operations.put(Operands.OPERAND_SUBSTRACT, new OperationSubstract());
         operations.put(Operands.OPERAND_MULTIPLY, new OperationMultiply());
         
-        // ilkay
+        // ilkay test
     }
     
     
